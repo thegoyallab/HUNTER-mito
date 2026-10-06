@@ -1,80 +1,65 @@
-HUNTER v1.0.1 FINAL REPOSITORY VALIDATION
-Date: 2026-10-06
+HUNTER v1.0.1 FINAL PUBLIC RELEASE AND ARCHIVE VALIDATION
+Metadata state: 2026-10-07
 
-STATUS: PASS — PUBLIC REPOSITORY PUBLISHED AND INDEPENDENTLY VERIFIED
-PUBLIC REPOSITORY URL: https://github.com/thegoyallab/HUNTER-mito
-DEFAULT BRANCH: main
-FIRST REMOTELY VERIFIED RELEASE COMMIT: 1c845614ea6b621118990deadfd0b4300d75744f
-IMMUTABLE TAG: v1.0.1 — PENDING CREATION
-ARCHIVAL DOI: PENDING
+STATUS: PASS — PUBLIC REPOSITORY, IMMUTABLE TAG, GITHUB RELEASE AND ZENODO ARCHIVE COMPLETE
+
+PUBLIC REPOSITORY
+https://github.com/thegoyallab/HUNTER-mito
+
+GITHUB RELEASE
+https://github.com/thegoyallab/HUNTER-mito/releases/tag/v1.0.1
+
+IMMUTABLE TAG
+v1.0.1
+
+TAG TARGET COMMIT
+9a279088b83645fce9f3d656cc49ec5082134391
+
+ZENODO VERSION-SPECIFIC DOI
+10.5281/zenodo.23196383
+
+ZENODO CONCEPT DOI
+10.5281/zenodo.23196382
+
+ZENODO ARCHIVE SHA-256
+e170e48ffb1f29877581266b82eae47a161307be3fd9fa80b1273b34fc06a0e4
 
 SOFTWARE CREATOR
-- Confirmed primary software creator: Pankaj Goyal
-- Affiliation: Department of Biotechnology, Central University of Rajasthan, India
-- Additional software creators/contributors: may be added later only by explicit PI decision
-- Manuscript authorship remains independent
+Pankaj Goyal
+Department of Biotechnology, Central University of Rajasthan, India
 
-SCIENTIFIC IDENTITY
-- Scientific model: HUNTER-v1.0
-- Model SHA-256: d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1
-- Ordered feature list SHA-256: 49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb
-- Feature engine SHA-256: 4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502
-- Scoring core SHA-256: 2e35433b3c3dd7478c3fe645d119956834a285fa2cfb8991890f10db5f6af21d
-- Wheel SHA-256: 2ea1daf94e40e87a857a6651192510f5fac3ef485f7ec358929cd1430f73f6f0
-- Input feature count: 42
-- Frozen threshold: 0.5428662440774465
-- Threshold operator: >=
+SCIENTIFIC IDENTITY — UNCHANGED
+Model: HUNTER-v1.0
+Model SHA-256: d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1
+Ordered feature-list SHA-256: 49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb
+Feature-engine SHA-256: 4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502
+Scoring-core SHA-256: 2e35433b3cdd7478c3fe645d119956834a285fa2cfb8991890f10db5f6af21d
+Wheel SHA-256: 2ea1daf94e40e87a857a6651192510f5fac3ef485f7ec358929cd1430f73f6f0
+Input feature count: 42
+Frozen threshold: 0.5428662440774465
+Threshold operator: >=
 
-REMOTE PUBLICATION VERIFICATION
-- GitHub account: thegoyallab
-- Repository visibility: public
-- Remote main matched local frozen release commit: PASS
-- Independent fresh clone from GitHub: PASS
-- Root SHA256SUMS verification in fresh clone: PASS
-- Fresh-clone model/feature/engine/core/wheel hashes: PASS
-- Fresh-clone H5 parity: PASS, N=26, max abs delta=1.1102230246251565e-16
-- Fresh-clone HPS sample parity: PASS, N=21, max abs delta=2.220446049250313e-16
-- Fresh-clone CITATION.cff validation: PASS
-
-EXAMPLES
-- H5-I public 5+5 FASTA SHA-256: c0cae659dae39f97ae7df260c7ca1fd57fd7bb63f28d639da8ccf692710f0414
-- H5-I public example records: 10
-- Deterministic regression FASTA SHA-256: 710ba389adf99ad1d6c8dad7d6fb907e8838cbef93a26bd84ecd03d2e8722b21
-- Deterministic regression records: 10
-
-CITATION / METADATA
-- CITATION.cff YAML parse: PASS
-- CFF required fields: PASS
-- CFF version: 1.2.0
-- Software type: software
-- Package version: 1.0.1
-- License: BSD-3-Clause
-- CFF creators: 1
-- Primary software creator in CFF: Pankaj Goyal
-- Canonical source repository recorded: https://github.com/thegoyallab/HUNTER-mito
-
-LIVE RESOURCE
-- https://hunter.goyal-lab.org/
-- v0.7.23 production scientific parity: PASS
-- synchronous production performance: PASS
-- normal-browser Chrome usability/privacy: PASS
-- normal-browser Edge usability/privacy: PASS
-- HUNTER Local Storage / Session Storage / service worker: none detected
-- observed HUNTER-domain cookie: Hostinger hcdn first-party HttpOnly session/security cookie
-
-REPOSITORY HYGIENE
-- Secret-like content audit: PASS
-- Machine-local absolute-path audit: PASS after provenance-only path sanitation
-- Personal email-like string audit: PASS
-- Files >=50 MB: none
-- Git EOL conversion disabled by .gitattributes to preserve verified bytes
-- Certified hunter_mito-1.0.1 wheel explicitly tracked
-- Historical pre-certification records isolated under provenance/historical_release_records/
+VERIFICATION
+- public GitHub main publication: PASS
+- immutable annotated tag v1.0.1: PASS
+- tag target commit verification: PASS
+- fresh tagged clone root SHA256SUMS verification: PASS
+- tagged H5 parity: PASS, N=26
+- tagged HPS sample parity: PASS, N=21
+- tagged CITATION.cff validation: PASS
+- Zenodo upload archive generated from immutable tag: PASS
+- Zenodo archive internal SHA256SUMS verification: PASS
+- Zenodo software record publication: PASS
+- version-specific DOI assigned: PASS
+- concept DOI assigned: PASS
 
 PUBLICATION LOCK
-- Locked manuscript/figure files: 77
-- Manuscript/figure files changed during repository publication: NO
-- Main Figs. 1–6, Extended Data Figs. 1–2, Supplementary Figs. S1–S3 and Supplementary Table 14 remain protected
+- scientific model changed: NO
+- manuscript/figure files changed during software release/archive: NO
+- locked publication files remain: 77
 
-NEXT ACTION
-Commit and push this repository-URL metadata finalization, independently verify the new remote main, then create and verify immutable tag v1.0.1 before archival DOI assignment.
+NEXT METADATA-ONLY ACTIONS
+1. commit/push DOI metadata to GitHub main without altering tag v1.0.1;
+2. update HUNTER website citation/DOI information;
+3. prepare manuscript v1.4 metadata-only revision;
+4. update the NAR one-page proposal with final repository/release/DOI information.

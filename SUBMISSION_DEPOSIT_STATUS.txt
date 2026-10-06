@@ -9,8 +9,11 @@ Primary software creator: Pankaj Goyal
 Additional software creators/contributors: may be added later by explicit PI decision
 Repository URL: https://github.com/thegoyallab/HUNTER-mito
 Public repository verification: PASS
-Immutable release tag: v1.0.1 (PENDING CREATION)
-Archive DOI: PENDING
+Immutable release tag: v1.0.1
+GitHub release: https://github.com/thegoyallab/HUNTER-mito/releases/tag/v1.0.1
+Version-specific Zenodo DOI: 10.5281/zenodo.23196383
+Concept DOI: 10.5281/zenodo.23196382
+Zenodo archival verification: PASS
 Manuscript first author: Kritika Gahelot
 Manuscript corresponding author: Pankaj Goyal
 Manuscript/figure package changed during this step: NO

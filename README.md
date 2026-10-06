@@ -71,11 +71,13 @@ Software creator metadata:
 Canonical public repository:
 - https://github.com/thegoyallab/HUNTER-mito
 
-Open release metadata items:
-- immutable `v1.0.1` release/tag URL;
-- archival DOI.
+Canonical release and archive:
+- immutable Git tag: https://github.com/thegoyallab/HUNTER-mito/tree/v1.0.1
+- GitHub release: https://github.com/thegoyallab/HUNTER-mito/releases/tag/v1.0.1
+- version-specific Zenodo DOI: https://doi.org/10.5281/zenodo.23196383
+- Zenodo concept DOI for the software series: https://doi.org/10.5281/zenodo.23196382
 
-The live web deployment, software-creator checkpoint, and public-repository publication are complete. Release-tested software package version: **1.0.1**. Live v0.7.23 production certification is complete. The next administrative action is creation and verification of the immutable `v1.0.1` tag, followed by archival DOI assignment.
+The live web deployment, software-creator checkpoint, public-repository publication, immutable `v1.0.1` tag, GitHub Release and Zenodo archival deposit are complete. Release-tested software package version: **1.0.1**. Live v0.7.23 production certification is complete.
 
 The scientific HUNTER v1 model, feature engine and decision threshold are locked and must not be changed during these release steps.
 

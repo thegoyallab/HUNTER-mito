@@ -41,8 +41,9 @@ Current manuscript authorship remains separate from the software creator record.
 
 ## Repository / DOI fields
 Repository URL: https://github.com/thegoyallab/HUNTER-mito
-Release/tag URL: [TO BE CREATED]
-Archive DOI: [TO BE ASSIGNED]
+Release/tag URL: https://github.com/thegoyallab/HUNTER-mito/releases/tag/v1.0.1
+Version-specific archive DOI: https://doi.org/10.5281/zenodo.23196383
+Concept DOI: https://doi.org/10.5281/zenodo.23196382
 
 ## Integrity statement
 The scientific HUNTER-v1.0 model, feature engine, selected feature list and decision threshold must not be altered during repository/deposition steps.

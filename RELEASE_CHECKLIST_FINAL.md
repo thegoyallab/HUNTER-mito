@@ -26,9 +26,9 @@
 
 - [x] publish canonical public repository
 - [x] record and independently verify repository URL
-- [ ] create immutable `v1.0.1` tag/release
-- [ ] archive exact tag and obtain DOI
-- [ ] verify repository/tag/DOI identity
+- [x] create immutable `v1.0.1` tag/release
+- [x] archive exact tag and obtain DOI
+- [x] verify repository/tag/DOI identity
 - [ ] insert repository URL/DOI into metadata-only manuscript v1.4
 - [ ] add any additional software creator/contributor only if explicitly approved later
 
