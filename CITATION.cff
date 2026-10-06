@@ -8,5 +8,6 @@ authors:
     given-names: "Pankaj"
     affiliation: "Department of Biotechnology, Central University of Rajasthan, India"
 license: "BSD-3-Clause"
+repository-code: "https://github.com/thegoyallab/HUNTER-mito"
 url: "https://hunter.goyal-lab.org/"
 abstract: "HUNTER v1 is an interpretable sequence-architecture framework for prioritizing proteins with features associated with non-classical mitochondrial targeting (ncMTS/ncMLS)."

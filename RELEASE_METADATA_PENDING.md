@@ -1,6 +1,6 @@
 # HUNTER v1.0.1 release metadata — remaining items
 
-Status: **REPOSITORY CONTENT READY; PUBLIC REPOSITORY/TAG/DOI PENDING**  
+Status: **PUBLIC REPOSITORY PUBLISHED AND VERIFIED; TAG/DOI PENDING**  
 Date: 2026-10-06
 
 ## Frozen software identity
@@ -32,25 +32,30 @@ Live v0.7.23 is production-certified:
 - 500-record synchronous production request PASS;
 - normal-browser Chrome and Edge workflow/privacy checks PASS.
 
+## Canonical public repository
+
+- Repository URL: https://github.com/thegoyallab/HUNTER-mito
+- Default branch: `main`
+- First remotely verified frozen-release commit: `1c845614ea6b621118990deadfd0b4300d75744f`
+- Independent fresh-clone checksum verification: PASS
+- Independent fresh-clone H5/HPS parity: PASS
+- Repository publication date: 2026-10-06
+
 ## Remaining repository/archive fields
 
-- canonical public repository URL
 - immutable `v1.0.1` tag/release URL
 - archival DOI
 - archive record URL
-- repository publication/release date
 - ORCID for Pankaj Goyal, if the PI chooses to include it
 - any additional software creator/contributor approved later
 - related manuscript DOI/citation when available
 
 ## Next release sequence
 
-1. publish this exact verified repository candidate;
-2. record the canonical repository URL;
-3. create immutable tag `v1.0.1`;
-4. verify tagged contents against this candidate;
-5. archive the exact tagged release and obtain DOI;
-6. verify DOI metadata and resolution;
-7. make the planned metadata-only manuscript v1.4 update.
+1. create immutable tag `v1.0.1`;
+2. verify tagged contents against the canonical repository release;
+3. archive the exact tagged release and obtain DOI;
+4. verify DOI metadata and resolution;
+5. make the planned metadata-only manuscript v1.4 update.
 
 No scientific model, feature definition, threshold, validation result, figure, legend, or locked manuscript asset may be altered during these steps.

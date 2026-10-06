@@ -40,8 +40,8 @@ Manuscript title: HUNTER: an interpretable sequence-architecture framework for p
 Current manuscript authorship remains separate from the software creator record.
 
 ## Repository / DOI fields
-Repository URL: [TO BE ASSIGNED]
-Release/tag URL: [TO BE ASSIGNED]
+Repository URL: https://github.com/thegoyallab/HUNTER-mito
+Release/tag URL: [TO BE CREATED]
 Archive DOI: [TO BE ASSIGNED]
 
 ## Integrity statement

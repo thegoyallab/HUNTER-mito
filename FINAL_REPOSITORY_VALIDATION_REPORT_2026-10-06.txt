@@ -1,15 +1,17 @@
-HUNTER v1.0.1 FINAL REPOSITORY CANDIDATE VALIDATION
+HUNTER v1.0.1 FINAL REPOSITORY VALIDATION
 Date: 2026-10-06
 
-STATUS: PASS — REPOSITORY CONTENT READY FOR PUBLICATION
-PUBLIC REPOSITORY URL: PENDING
-IMMUTABLE TAG: v1.0.1 — TO BE CREATED AFTER PUBLICATION
+STATUS: PASS — PUBLIC REPOSITORY PUBLISHED AND INDEPENDENTLY VERIFIED
+PUBLIC REPOSITORY URL: https://github.com/thegoyallab/HUNTER-mito
+DEFAULT BRANCH: main
+FIRST REMOTELY VERIFIED RELEASE COMMIT: 1c845614ea6b621118990deadfd0b4300d75744f
+IMMUTABLE TAG: v1.0.1 — PENDING CREATION
 ARCHIVAL DOI: PENDING
 
 SOFTWARE CREATOR
 - Confirmed primary software creator: Pankaj Goyal
 - Affiliation: Department of Biotechnology, Central University of Rajasthan, India
-- Additional software creators/contributors: not finalized; may be added later only by explicit PI decision
+- Additional software creators/contributors: may be added later only by explicit PI decision
 - Manuscript authorship remains independent
 
 SCIENTIFIC IDENTITY
@@ -23,9 +25,16 @@ SCIENTIFIC IDENTITY
 - Frozen threshold: 0.5428662440774465
 - Threshold operator: >=
 
-GOLDEN PARITY
-- H5: PASS, N=26, max abs delta = 1.1102230246251565e-16
-- HPS sample: PASS, N=21, max abs delta = 2.220446049250313e-16
+REMOTE PUBLICATION VERIFICATION
+- GitHub account: thegoyallab
+- Repository visibility: public
+- Remote main matched local frozen release commit: PASS
+- Independent fresh clone from GitHub: PASS
+- Root SHA256SUMS verification in fresh clone: PASS
+- Fresh-clone model/feature/engine/core/wheel hashes: PASS
+- Fresh-clone H5 parity: PASS, N=26, max abs delta=1.1102230246251565e-16
+- Fresh-clone HPS sample parity: PASS, N=21, max abs delta=2.220446049250313e-16
+- Fresh-clone CITATION.cff validation: PASS
 
 EXAMPLES
 - H5-I public 5+5 FASTA SHA-256: c0cae659dae39f97ae7df260c7ca1fd57fd7bb63f28d639da8ccf692710f0414
@@ -42,7 +51,7 @@ CITATION / METADATA
 - License: BSD-3-Clause
 - CFF creators: 1
 - Primary software creator in CFF: Pankaj Goyal
-- cffconvert schema utility: not installed; YAML + required-field validation performed locally
+- Canonical source repository recorded: https://github.com/thegoyallab/HUNTER-mito
 
 LIVE RESOURCE
 - https://hunter.goyal-lab.org/
@@ -54,16 +63,18 @@ LIVE RESOURCE
 - observed HUNTER-domain cookie: Hostinger hcdn first-party HttpOnly session/security cookie
 
 REPOSITORY HYGIENE
-- Historical pre-certification reports/checksum manifests moved under provenance/historical_release_records/
-- Active repository root contains no stale software-creator-pending language
-- Authoritative root SHA256SUMS.txt generated and verified
-- Files covered by current checksum manifest: 99
-- No scientific source/model/wheel file changed during metadata finalization
+- Secret-like content audit: PASS
+- Machine-local absolute-path audit: PASS after provenance-only path sanitation
+- Personal email-like string audit: PASS
+- Files >=50 MB: none
+- Git EOL conversion disabled by .gitattributes to preserve verified bytes
+- Certified hunter_mito-1.0.1 wheel explicitly tracked
+- Historical pre-certification records isolated under provenance/historical_release_records/
 
 PUBLICATION LOCK
 - Locked manuscript/figure files: 77
-- Manuscript/figure files changed during repository finalization: NO
+- Manuscript/figure files changed during repository publication: NO
 - Main Figs. 1–6, Extended Data Figs. 1–2, Supplementary Figs. S1–S3 and Supplementary Table 14 remain protected
 
 NEXT ACTION
-Publish this exact verified repository candidate to the canonical public repository, then create and verify immutable tag v1.0.1 and archive that exact tag for DOI assignment.
+Commit and push this repository-URL metadata finalization, independently verify the new remote main, then create and verify immutable tag v1.0.1 before archival DOI assignment.

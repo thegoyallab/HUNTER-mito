@@ -24,8 +24,8 @@
 
 ## Administrative publication items pending
 
-- [ ] publish canonical public repository
-- [ ] record repository URL
+- [x] publish canonical public repository
+- [x] record and independently verify repository URL
 - [ ] create immutable `v1.0.1` tag/release
 - [ ] archive exact tag and obtain DOI
 - [ ] verify repository/tag/DOI identity
