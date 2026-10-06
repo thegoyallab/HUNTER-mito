@@ -1,0 +1,44 @@
+{
+  "release_candidate": "HUNTER_v1_public_repository_RELEASE_CANDIDATE_v1.0.1_FINAL",
+  "date": "2026-10-06",
+  "status": "REPOSITORY_CONTENT_READY_PENDING_PUBLIC_REPOSITORY_TAG_DOI",
+  "software_package_version": "1.0.1",
+  "scientific_model": "HUNTER-v1.0",
+  "primary_software_creator": {
+    "name": "Pankaj Goyal",
+    "affiliation": "Department of Biotechnology, Central University of Rajasthan, India",
+    "confirmed": true
+  },
+  "additional_software_creators": [],
+  "additional_creators_may_be_added_later_by_explicit_PI_decision": true,
+  "license": "BSD-3-Clause",
+  "live_web": {
+    "url": "https://hunter.goyal-lab.org/",
+    "web_version": "v0.7.23",
+    "production_certification": "PASS"
+  },
+  "scientific_identity": {
+    "model_sha256": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1",
+    "feature_list_sha256": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb",
+    "feature_engine_sha256": "4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502",
+    "scoring_core_sha256": "2e35433b3c3dd7478c3fe645d119956834a285fa2cfb8991890f10db5f6af21d",
+    "wheel_sha256": "2ea1daf94e40e87a857a6651192510f5fac3ef485f7ec358929cd1430f73f6f0",
+    "feature_count": 42,
+    "threshold": 0.5428662440774465,
+    "threshold_operator": ">="
+  },
+  "publication_lock": {
+    "scientific_core_changed": false,
+    "manuscript_or_figure_files_changed": false,
+    "locked_publication_files": 77
+  },
+  "pending_administrative_fields": [
+    "canonical public repository URL",
+    "immutable v1.0.1 tag/release URL",
+    "archival DOI",
+    "archive record URL",
+    "release date",
+    "optional ORCID for primary software creator",
+    "optional additional creators/contributors approved later"
+  ]
+}

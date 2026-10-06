@@ -1,0 +1,303 @@
+﻿{
+  "status": "PASS",
+  "scientific_model": "HUNTER-v1.0",
+  "root": "<HUNTER_PROJECT_ROOT>",
+  "static_only": false,
+  "checks_total": 38,
+  "checks_passed": 38,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check": "sha256:Core244 label registry",
+      "pass": true,
+      "detail": {
+        "expected": "9a29cee323e0b881fb7920a2574427cae5329805d153800e864b2b29e963c94b",
+        "observed": "9a29cee323e0b881fb7920a2574427cae5329805d153800e864b2b29e963c94b",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_Stage24H1A_CoreTrainingUniverse_v0_1/Stage24H1A_core244_label_registry.csv"
+      }
+    },
+    {
+      "check": "sha256:Stage24H3C frozen model",
+      "pass": true,
+      "detail": {
+        "expected": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1",
+        "observed": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_Stage24H3C_CompactCandidate_v0_1_results/Stage24H3C_SELECTED_LOGISTIC_ELASTICNET_Core244_NTERM42.joblib"
+      }
+    },
+    {
+      "check": "sha256:Stage24H3C ordered feature list",
+      "pass": true,
+      "detail": {
+        "expected": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb",
+        "observed": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_Stage24H3C_CompactCandidate_v0_1_results/Stage24H3C_selected_features.txt"
+      }
+    },
+    {
+      "check": "sha256:H5 frozen sequence cache",
+      "pass": true,
+      "detail": {
+        "expected": "5339820e613e065bc23f3c68503781ca88a8829b09865469356e0d69364faef9",
+        "observed": "5339820e613e065bc23f3c68503781ca88a8829b09865469356e0d69364faef9",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_Stage24H5A_SequenceFreeze_v0_1_results/Stage24H5A_sequence_cache.csv"
+      }
+    },
+    {
+      "check": "sha256:H5 vs Core244 exact-sequence overlap audit",
+      "pass": true,
+      "detail": {
+        "expected": "4c5183d0b79b16cccf6ad3b1da06fee762e0bfb7a3ddcc978252411b1ccf5539",
+        "observed": "4c5183d0b79b16cccf6ad3b1da06fee762e0bfb7a3ddcc978252411b1ccf5539",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_Stage24H5A_SequenceFreeze_v0_1_results/Stage24H5A_exact_sequence_duplicates_vs_Core244.csv"
+      }
+    },
+    {
+      "check": "sha256:Locked external-validation result",
+      "pass": true,
+      "detail": {
+        "expected": "83b562c9fd279236529c4bb840ca735515a1f579bbf7b89d15ffd9a98af1b573",
+        "observed": "83b562c9fd279236529c4bb840ca735515a1f579bbf7b89d15ffd9a98af1b573",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_Stage24H5B_LockedExternalValidation_v0_1_results/Stage24H5B_locked_validation_result.json"
+      }
+    },
+    {
+      "check": "sha256:Public scoring model",
+      "pass": true,
+      "detail": {
+        "expected": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1",
+        "observed": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/src/hunter/data/HUNTER_v1.joblib"
+      }
+    },
+    {
+      "check": "sha256:Public scoring ordered feature list",
+      "pass": true,
+      "detail": {
+        "expected": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb",
+        "observed": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/src/hunter/data/selected_features.txt"
+      }
+    },
+    {
+      "check": "sha256:Frozen feature engine",
+      "pass": true,
+      "detail": {
+        "expected": "4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502",
+        "observed": "4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/src/hunter/frozen_stage24h2_feature_engine.py"
+      }
+    },
+    {
+      "check": "sha256:Public scoring core",
+      "pass": true,
+      "detail": {
+        "expected": "2e35433b3c3dd7478c3fe645d119956834a285fa2cfb8991890f10db5f6af21d",
+        "observed": "2e35433b3c3dd7478c3fe645d119956834a285fa2cfb8991890f10db5f6af21d",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/src/hunter/core.py"
+      }
+    },
+    {
+      "check": "sha256:H5 golden vectors",
+      "pass": true,
+      "detail": {
+        "expected": "17529913e3afa21e4ab987feacfa8edd4e4f157c2e0e3aea09c7c4e66b04478a",
+        "observed": "17529913e3afa21e4ab987feacfa8edd4e4f157c2e0e3aea09c7c4e66b04478a",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/tests/golden_vectors_h5.tsv"
+      }
+    },
+    {
+      "check": "sha256:HPS golden sample",
+      "pass": true,
+      "detail": {
+        "expected": "ebc34ab98a0a5034190c4f96352597db5ab97519646d0d66afe21de368660861",
+        "observed": "ebc34ab98a0a5034190c4f96352597db5ab97519646d0d66afe21de368660861",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/tests/golden_vectors_hps_sample.tsv"
+      }
+    },
+    {
+      "check": "sha256:Parity test",
+      "pass": true,
+      "detail": {
+        "expected": "2a2e1f0bc44d4ba8004c5b5a5c9741430a39ea09e8f0d666c84df7fecd382223",
+        "observed": "2a2e1f0bc44d4ba8004c5b5a5c9741430a39ea09e8f0d666c84df7fecd382223",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/tests/test_parity.py"
+      }
+    },
+    {
+      "check": "sha256:Bundled production CLI",
+      "pass": true,
+      "detail": {
+        "expected": "9f99ba5ab6d8fdc4d35695e8a676c8ede586a9929da07aa533a0a0321f0fd555",
+        "observed": "9f99ba5ab6d8fdc4d35695e8a676c8ede586a9929da07aa533a0a0321f0fd555",
+        "path": "<HUNTER_PROJECT_ROOT>/HUNTER_v1_Web_Interface_v0_7_23_NARREADY/bin/hunter-linux"
+      }
+    },
+    {
+      "check": "Core244:n",
+      "pass": true,
+      "detail": {
+        "observed": 244
+      }
+    },
+    {
+      "check": "Core244:labels",
+      "pass": true,
+      "detail": {
+        "CLASSICAL_MTS_REF_NEG": 213,
+        "NCMTS_GOLD_POS": 31
+      }
+    },
+    {
+      "check": "Core244:binary_targets",
+      "pass": true,
+      "detail": {
+        "0": 213,
+        "1": 31
+      }
+    },
+    {
+      "check": "feature_count",
+      "pass": true,
+      "detail": {
+        "observed": 42
+      }
+    },
+    {
+      "check": "feature_windows",
+      "pass": true,
+      "detail": {
+        "first": [
+          "N30_Len",
+          "N30_BasicFrac",
+          "N30_AcidicFrac"
+        ],
+        "last": [
+          "N100_MeanKD",
+          "N100_HM100",
+          "N100_Entropy"
+        ]
+      }
+    },
+    {
+      "check": "H5:sequence_cache_n",
+      "pass": true,
+      "detail": {
+        "observed": 26
+      }
+    },
+    {
+      "check": "H5:exact_sequence_duplicates_vs_Core244",
+      "pass": true,
+      "detail": {
+        "observed": 0
+      }
+    },
+    {
+      "check": "H5B:status",
+      "pass": true,
+      "detail": "LOCKED_EXTERNAL_VALIDATION_COMPLETE"
+    },
+    {
+      "check": "H5B:feature_count",
+      "pass": true,
+      "detail": 42
+    },
+    {
+      "check": "H5B:threshold",
+      "pass": true,
+      "detail": 0.5428662440774465
+    },
+    {
+      "check": "H5B:no_postfreeze_science_changes",
+      "pass": true,
+      "detail": {
+        "retraining_performed": false,
+        "recalibration_performed": false,
+        "feature_selection_performed": false,
+        "threshold_changed": false,
+        "labels_changed_after_scoring": false
+      }
+    },
+    {
+      "check": "golden:H5_n",
+      "pass": true,
+      "detail": {
+        "observed": 26
+      }
+    },
+    {
+      "check": "golden:HPS_n",
+      "pass": true,
+      "detail": {
+        "observed": 21
+      }
+    },
+    {
+      "check": "core:threshold_literal",
+      "pass": true,
+      "detail": "exact literal required"
+    },
+    {
+      "check": "core:threshold_operator",
+      "pass": true,
+      "detail": ">= required"
+    },
+    {
+      "check": "core:probability_class1",
+      "pass": true,
+      "detail": "class-1 probability required"
+    },
+    {
+      "check": "model_manifest:model_hash",
+      "pass": true,
+      "detail": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1"
+    },
+    {
+      "check": "model_manifest:feature_hash",
+      "pass": true,
+      "detail": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb"
+    },
+    {
+      "check": "model_manifest:engine_hash",
+      "pass": true,
+      "detail": "4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502"
+    },
+    {
+      "check": "model_manifest:threshold",
+      "pass": true,
+      "detail": 0.5428662440774465
+    },
+    {
+      "check": "model_manifest:feature_count",
+      "pass": true,
+      "detail": 42
+    },
+    {
+      "check": "negative_test:corruption_detected",
+      "pass": true,
+      "detail": "temporary copy deliberately altered"
+    },
+    {
+      "check": "dynamic:bundled_cli_validate_installation",
+      "pass": true,
+      "detail": {
+        "model_sha256_expected": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1",
+        "model_sha256_observed": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1",
+        "feature_list_sha256_expected": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb",
+        "feature_list_sha256_observed": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb",
+        "feature_engine_sha256_expected": "4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502",
+        "feature_engine_sha256_observed": "4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502",
+        "feature_count": 42,
+        "threshold": 0.5428662440774465,
+        "pass": true,
+        "model_n_features_in": 42
+      }
+    },
+    {
+      "check": "dynamic:package_golden_parity",
+      "pass": true,
+      "detail": "PARITY PASS {'H5_n': 26, 'H5_max_abs_delta': 1.1102230246251565e-16, 'HPS_n': 21, 'HPS_max_abs_delta': 2.220446049250313e-16}"
+    }
+  ]
+}

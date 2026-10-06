@@ -1,0 +1,2 @@
+Identifier	Sequence_Length	HUNTER_Version	HUNTER_Score	Frozen_Threshold	Threshold_Call	Distance_From_Threshold	Technical_Status	Applicability_Note	Interpretation	Error
+Serpin	402	HUNTER-v1.0	0.577297830694871	0.5428662440774465	ABOVE_THRESHOLD	0.0344315866174244	SCORED	Sequence-only scoring completed. Biological applicability/localization must be assessed independently.	ncMTS-like sequence architecture priority; mitochondrial localization requires independent evidence.	

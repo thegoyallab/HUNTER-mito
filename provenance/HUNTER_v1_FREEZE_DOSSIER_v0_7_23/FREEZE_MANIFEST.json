@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "generated_date": "2026-10-06",
+  "release_context": "HUNTER v0.7.23 NAR-readiness scientific freeze verification",
+  "scientific_model": "HUNTER-v1.0",
+  "formal_name": "HUNTER — Human mitochondrial targeting and N-terminome evidence resource",
+  "task": "Among proteins already established as mitochondrial, distinguish non-classical/presequence-independent targeting architecture from classical cleavable-presequence architecture.",
+  "scientific_contract": {
+    "model_sha256": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1",
+    "feature_list_sha256": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb",
+    "feature_engine_sha256": "4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502",
+    "core_py_sha256": "2e35433b3c3dd7478c3fe645d119956834a285fa2cfb8991890f10db5f6af21d",
+    "feature_count": 42,
+    "feature_windows": ["N30", "N60", "N100"],
+    "pipeline_steps": ["var", "scale", "clf"],
+    "classifier": "sklearn.linear_model.LogisticRegression",
+    "penalty": "elasticnet",
+    "solver": "saga",
+    "C": 0.01,
+    "l1_ratio": 0.5,
+    "probability_semantics": "predict_proba(X)[:,1], class 1 = ncMTS-like/non-classical architecture",
+    "threshold_exact": "0.5428662440774465",
+    "threshold_operator": ">=",
+    "threshold_derivation": "Median of five outer-fold thresholds; each threshold selected only from its corresponding outer-training partition."
+  },
+  "cohorts": {
+    "Core244": {
+      "n": 244,
+      "positive_n": 31,
+      "classical_reference_n": 213,
+      "registry_sha256": "9a29cee323e0b881fb7920a2574427cae5329805d153800e864b2b29e963c94b"
+    },
+    "H5": {
+      "n": 26,
+      "H5I_n": 20,
+      "H5II_n": 6,
+      "sequence_cache_sha256": "5339820e613e065bc23f3c68503781ca88a8829b09865469356e0d69364faef9",
+      "golden_vectors_sha256": "17529913e3afa21e4ab987feacfa8edd4e4f157c2e0e3aea09c7c4e66b04478a",
+      "exact_sequence_duplicates_vs_Core244": 0
+    },
+    "HPS_golden_sample": {
+      "n": 21,
+      "golden_vectors_sha256": "ebc34ab98a0a5034190c4f96352597db5ab97519646d0d66afe21de368660861"
+    }
+  },
+  "validation": {
+    "H5I": {
+      "n": 20,
+      "positive_n": 10,
+      "negative_n": 10,
+      "TP": 5,
+      "FP": 0,
+      "TN": 10,
+      "FN": 5,
+      "average_precision": 0.9374999999999999,
+      "AUROC": 0.91,
+      "MCC": 0.5773502691896257,
+      "balanced_accuracy": 0.75,
+      "sensitivity": 0.5,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "F1": 0.6666666666666666
+    },
+    "H5II": {
+      "n": 6,
+      "positive_calls": 4,
+      "pooled_into_H5I": false
+    },
+    "parity_policy": {
+      "absolute_tolerance": 1e-10,
+      "relative_tolerance": 0.0,
+      "threshold_call_exact_match_required": true
+    },
+    "last_direct_dynamic_parity": {
+      "date": "2026-10-06",
+      "H5_n": 26,
+      "H5_max_abs_delta": 1.1102230246251565e-16,
+      "HPS_n": 21,
+      "HPS_max_abs_delta": 2.220446049250313e-16,
+      "status": "PASS"
+    }
+  },
+  "runtime_reference": {
+    "python": "3.12.3",
+    "numpy": "2.5.3",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0",
+    "validated_platform": "WSL2 Linux x86_64 glibc 2.39"
+  },
+  "production_binary": {
+    "path": "HUNTER_v1_Web_Interface_v0_7_23_NARREADY/bin/hunter-linux",
+    "sha256": "9f99ba5ab6d8fdc4d35695e8a676c8ede586a9929da07aa533a0a0321f0fd555",
+    "same_as_v0_7_22": true,
+    "validate_installation_status": "PASS"
+  },
+  "authoritative_files": [
+    {
+      "role": "Core244 label registry",
+      "path": "HUNTER_Stage24H1A_CoreTrainingUniverse_v0_1/Stage24H1A_core244_label_registry.csv",
+      "sha256": "9a29cee323e0b881fb7920a2574427cae5329805d153800e864b2b29e963c94b"
+    },
+    {
+      "role": "Stage24H3C frozen model",
+      "path": "HUNTER_Stage24H3C_CompactCandidate_v0_1_results/Stage24H3C_SELECTED_LOGISTIC_ELASTICNET_Core244_NTERM42.joblib",
+      "sha256": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1"
+    },
+    {
+      "role": "Stage24H3C ordered feature list",
+      "path": "HUNTER_Stage24H3C_CompactCandidate_v0_1_results/Stage24H3C_selected_features.txt",
+      "sha256": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb"
+    },
+    {
+      "role": "H5 frozen sequence cache",
+      "path": "HUNTER_Stage24H5A_SequenceFreeze_v0_1_results/Stage24H5A_sequence_cache.csv",
+      "sha256": "5339820e613e065bc23f3c68503781ca88a8829b09865469356e0d69364faef9"
+    },
+    {
+      "role": "H5 vs Core244 exact-sequence overlap audit",
+      "path": "HUNTER_Stage24H5A_SequenceFreeze_v0_1_results/Stage24H5A_exact_sequence_duplicates_vs_Core244.csv",
+      "sha256": "4c5183d0b79b16cccf6ad3b1da06fee762e0bfb7a3ddcc978252411b1ccf5539"
+    },
+    {
+      "role": "Locked external-validation result",
+      "path": "HUNTER_Stage24H5B_LockedExternalValidation_v0_1_results/Stage24H5B_locked_validation_result.json",
+      "sha256": "83b562c9fd279236529c4bb840ca735515a1f579bbf7b89d15ffd9a98af1b573"
+    },
+    {
+      "role": "Public scoring model",
+      "path": "HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/src/hunter/data/HUNTER_v1.joblib",
+      "sha256": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1"
+    },
+    {
+      "role": "Public scoring ordered feature list",
+      "path": "HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/src/hunter/data/selected_features.txt",
+      "sha256": "49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb"
+    },
+    {
+      "role": "Frozen feature engine",
+      "path": "HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/src/hunter/frozen_stage24h2_feature_engine.py",
+      "sha256": "4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502"
+    },
+    {
+      "role": "Public scoring core",
+      "path": "HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/src/hunter/core.py",
+      "sha256": "2e35433b3c3dd7478c3fe645d119956834a285fa2cfb8991890f10db5f6af21d"
+    },
+    {
+      "role": "H5 golden vectors",
+      "path": "HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/tests/golden_vectors_h5.tsv",
+      "sha256": "17529913e3afa21e4ab987feacfa8edd4e4f157c2e0e3aea09c7c4e66b04478a"
+    },
+    {
+      "role": "HPS golden sample",
+      "path": "HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/tests/golden_vectors_hps_sample.tsv",
+      "sha256": "ebc34ab98a0a5034190c4f96352597db5ab97519646d0d66afe21de368660861"
+    },
+    {
+      "role": "Parity test",
+      "path": "HUNTER_HPS_v1/HPS11A4_Final_Software_Release_Candidate/HUNTER_v1_public_repo_v1.0.1/tests/test_parity.py",
+      "sha256": "2a2e1f0bc44d4ba8004c5b5a5c9741430a39ea09e8f0d666c84df7fecd382223"
+    },
+    {
+      "role": "Bundled production CLI",
+      "path": "HUNTER_v1_Web_Interface_v0_7_23_NARREADY/bin/hunter-linux",
+      "sha256": "9f99ba5ab6d8fdc4d35695e8a676c8ede586a9929da07aa533a0a0321f0fd555"
+    }
+  ],
+  "provenance_resolution": {
+    "canonical_lineage": "d916f1ad... model / 49de5234... feature list",
+    "evidence": [
+      "Stage24H3C development model hash equals Master Freeze copy.",
+      "Manuscript reproducibility package uses the same model and feature list.",
+      "HPS11 public scoring package and Windows submission deposit use the same model and feature list.",
+      "prepare_HUNTER_repo_deposit.py copies HPS11A4_Final_Software_Release_Candidate directly.",
+      "Bundled CLI validate-installation reports the same model, feature-list and feature-engine hashes."
+    ],
+    "rejected_report_lineage": "4a29690e... / 670e2b05... HUNTER_FINAL_MODEL/FLOAT64 report lineage",
+    "rejection_reason": "No matching HUNTER_FINAL_MODEL or FLOAT64_RETRAIN_FINAL artifact was found in the canonical Kairav HUNTER project tree; the actual packaging script and all frozen manifests point to the d916/49de lineage."
+  },
+  "known_release_remediation_before_final_tag": [
+    "Preserve the original 10-sequence deterministic regression fixture; do not overwrite it with the public biological example.",
+    "Create a separate public 5+5 example derived from frozen validation/reference material.",
+    "Benchmark synchronous batch performance before deciding whether persistent /results URLs are required.",
+    "Regenerate repository/package manifests for the actual v1.0.1 wheel; the inherited PACKAGE_MANIFEST still describes v1.0.0.",
+    "Create a dedicated v0.7.23 web manifest; inherited WEB_INTERFACE_MANIFEST.json is stale.",
+    "Run clean-profile Chrome and Firefox cookie/storage/network audit after deployment.",
+    "Complete public-repository URL, archive DOI and final software-contributor metadata before final release tag."
+  ]
+}

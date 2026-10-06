@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-06",
+  "production_url": "https://hunter.goyal-lab.org/",
+  "deployment_status": "DEPLOYED",
+  "certification_status": "PRODUCTION_CERTIFIED",
+  "scientific_model": "HUNTER-v1.0",
+  "scientific_core_changed": false,
+  "health": {
+    "http": 200,
+    "status": "ready",
+    "integrity_pass": true,
+    "feature_count": 42,
+    "threshold": 0.5428662440774465,
+    "interpretation_data_status": "ready",
+    "hps_unique_sequences": 20410
+  },
+  "scientific_parity": {
+    "public_H5I_5plus5": {
+      "rows": 10,
+      "max_abs_delta": 1.1102230246251565e-16,
+      "call_mismatch": 0,
+      "identifier_mismatch": 0,
+      "status": "PASS"
+    },
+    "deterministic_regression_10": {
+      "rows": 10,
+      "max_abs_delta": 0.0,
+      "call_mismatch": 0,
+      "identifier_mismatch": 0,
+      "status": "PASS"
+    }
+  },
+  "performance": {
+    "score_1_seconds": 2.869920897,
+    "score_10_seconds": 3.374805384,
+    "score_100_seconds": 6.345242504,
+    "score_500_seconds": 14.052830652,
+    "describe_10_seconds": 3.532056777,
+    "status": "PASS_SYNCHRONOUS"
+  },
+  "live_static_assets": {
+    "app_js_sha256": "404549e4a894c5512e307b46b38f7f570871b7fcdfbbce467b867e152ce2ab87",
+    "styles_css_sha256": "79c19f773bc2b9be99dbc3c17a1ff129adecff7119405983eddc6c8fe642bd36",
+    "match_certified_deployment_candidate": true
+  },
+  "published_cli_checksum": "9f99ba5ab6d8fdc4d35695e8a676c8ede586a9929da07aa533a0a0321f0fd555",
+  "http_cookie_observation": {
+    "health_set_cookie": false,
+    "api_set_cookie": false,
+    "homepage_set_cookie": false
+  },
+  "browser_gate": {
+    "status": "PASS",
+    "chrome_direct": "PASS_NORMAL_HEADED_FRESH_PROFILE",
+    "chrome_parent_to_hunter": "PASS_FRESH_PROFILE_COOKIE_STORAGE_TRANSITION",
+    "edge_direct": "PASS_NORMAL_HEADED_FRESH_PROFILE",
+    "hunter_application_storage": "NONE_DETECTED",
+    "third_party_http_https_requests": "NONE_DETECTED_IN_AUDITED_HUNTER_WORKFLOWS",
+    "hosting_cookie": "hcdn first-party HttpOnly Secure session cookie from Hostinger CDN/security layer"
+  },
+  "publication_assets": {
+    "figure_or_manuscript_change_during_deployment": false,
+    "locked_files": 77
+  },
+  "next_gate": "FINAL_SOFTWARE_CREATOR_CONFIRMATION_THEN_REPOSITORY_TAG_AND_ARCHIVAL_DOI"
+}

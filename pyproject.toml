@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hunter-mito"
+version = "1.0.1"
+description = "Frozen HUNTER v1 sequence-architecture scoring"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["numpy==2.5.3", "scikit-learn==1.9.1", "joblib==1.6.0"]
+
+[project.scripts]
+hunter = "hunter.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hunter = ["data/*"]

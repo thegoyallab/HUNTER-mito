@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "mode": "score",
+      "workers": 5,
+      "records_per_request": 100,
+      "total_records": 500,
+      "wall_seconds": 6.783156871999381,
+      "all_http_200": true,
+      "request_latencies_seconds": [
+        6.696119976000773,
+        6.713762650000717,
+        6.727276321998943,
+        6.749625781001669,
+        6.776708670000517
+      ],
+      "aggregate_records_per_second": 73.71199125056084
+    },
+    {
+      "mode": "describe",
+      "workers": 5,
+      "records_per_request": 100,
+      "total_records": 500,
+      "wall_seconds": 7.1844690190009715,
+      "all_http_200": true,
+      "request_latencies_seconds": [
+        7.042991936999897,
+        7.094946719000291,
+        7.124785154999699,
+        7.155031974998565,
+        7.175302381001529
+      ],
+      "aggregate_records_per_second": 69.59456553819575
+    }
+  ]
+}

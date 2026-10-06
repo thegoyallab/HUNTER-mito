@@ -1,0 +1,15 @@
+HUNTER v1.0.1 repository release candidate
+Scientific model: HUNTER-v1.0
+Frozen threshold: 0.5428662440774465
+Scientific core changed during repository finalization: NO
+Live web server: https://hunter.goyal-lab.org/
+Live v0.7.23 production certification: PASS
+Reviewer downloads: https://hunter.goyal-lab.org/about#downloads
+Primary software creator: Pankaj Goyal
+Additional software creators/contributors: may be added later by explicit PI decision
+Repository URL: PENDING PUBLICATION
+Immutable release tag: v1.0.1 (TO BE CREATED AFTER REPOSITORY PUBLICATION)
+Archive DOI: PENDING
+Manuscript first author: Kritika Gahelot
+Manuscript corresponding author: Pankaj Goyal
+Manuscript/figure package changed during this step: NO

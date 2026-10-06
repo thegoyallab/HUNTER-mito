@@ -1,0 +1,60 @@
+HUNTER v1.0.1 GIT PUBLICATION PREPARATION REPORT
+Date: 2026-10-06
+
+STATUS: PASS — FIRST LOCAL GIT COMMIT CREATED; PUBLIC REMOTE REPOSITORY NOT YET CREATED
+PLANNED GITHUB OWNER: thegoyallab
+PLANNED REPOSITORY: HUNTER-mito
+PLANNED REMOTE: https://github.com/thegoyallab/HUNTER-mito.git
+PUBLICATION ACTION: NOT YET PUSHED
+
+PRIMARY SOFTWARE CREATOR
+Pankaj Goyal
+Department of Biotechnology, Central University of Rajasthan, India
+
+GIT COMMIT IDENTITY
+Author name: Pankaj Goyal
+Author email: 338741767+thegoyallab@users.noreply.github.com
+Branch: main
+Commit subject: HUNTER v1.0.1 frozen public release
+
+SCIENTIFIC IDENTITY — UNCHANGED
+Model SHA-256: d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1
+Feature list SHA-256: 49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb
+Feature engine SHA-256: 4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502
+Scoring core SHA-256: 2e35433b3c3dd7478c3fe645d119956834a285fa2cfb8991890f10db5f6af21d
+Wheel SHA-256: 2ea1daf94e40e87a857a6651192510f5fac3ef485f7ec358929cd1430f73f6f0
+Feature count: 42
+Threshold: 0.5428662440774465
+Threshold operator: >=
+
+VALIDATION
+H5 golden parity: PASS, N=26, max abs delta=1.1102230246251565e-16
+HPS sample parity: PASS, N=21, max abs delta=2.220446049250313e-16
+CITATION.cff YAML/required fields: PASS
+CITATION.cff creators: 1
+Primary software creator: Pankaj Goyal
+Git staged/working byte mismatches before commit: 0
+
+PUBLIC-REPOSITORY HYGIENE
+Secret-like filenames/content: 0
+Machine-local absolute path files after sanitation: 0
+Personal email-like strings in audited public text files: 0
+Files >=50 MB: 0
+
+PATH SANITATION
+Two historical provenance files contained local analysis-machine absolute paths. Only those path strings were replaced with descriptive placeholders. Scientific model/code/wheel/golden/example assets were not altered. See provenance/PUBLIC_REPOSITORY_PATH_SANITIZATION_20261006.md.
+
+GIT BYTE PRESERVATION
+.gitattributes disables automatic text/EOL conversion so committed scientific/reproducibility bytes match the verified release files.
+The certified wheel is explicitly tracked even though dist/ is otherwise ignored.
+
+PUBLICATION LOCK
+The external 77-file manuscript/figure lock remains unchanged.
+No scientific model, validation result, manuscript figure, or legend was changed.
+
+PENDING BEFORE REMOTE PUBLICATION
+1. create empty public GitHub repository thegoyallab/HUNTER-mito;
+2. push main;
+3. verify remote files and scientific hashes;
+4. create immutable tag v1.0.1 only after remote verification;
+5. archive exact tag and obtain DOI.

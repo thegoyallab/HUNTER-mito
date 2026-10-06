@@ -1,0 +1,33 @@
+{
+  "stage": "HPS03B",
+  "status": "PASS",
+  "threshold": 0.5428662440774465,
+  "score_parity_atol": 1e-10,
+  "score_parity_rtol": 1e-12,
+  "artifact_identity_pass": true,
+  "feature_count": 42,
+  "model_hyperparameter_pass": true,
+  "Challenge14_n": 14,
+  "Challenge14_max_abs_delta": 0.0,
+  "Challenge14_score_parity_pass": true,
+  "Challenge14_call_parity_pass": true,
+  "H5_total_n": 26,
+  "H5I_n": 20,
+  "H5II_n": 6,
+  "H5_max_abs_delta": 5.551115123125783e-17,
+  "H5_score_parity_pass": true,
+  "H5_call_parity_pass": true,
+  "H5_threshold_integrity_pass": true,
+  "H5_sequence_sources": {
+    "HUNTER_MASTER_FREEZE_v1_2026/06_External_Validation/HUNTER_Stage24H5A_SequenceFreeze_v0_1_results/Stage24H5A_sequence_cache.csv": 26
+  },
+  "governance": {
+    "fit_called": false,
+    "partial_fit_called": false,
+    "calibration_performed": false,
+    "feature_selection_performed": false,
+    "threshold_optimization_performed": false,
+    "proteome_wide_scoring_performed": false
+  },
+  "next_stage_if_PASS": "HPS04 applicability freeze"
+}

@@ -1,0 +1,69 @@
+HUNTER v1.0.1 FINAL REPOSITORY CANDIDATE VALIDATION
+Date: 2026-10-06
+
+STATUS: PASS — REPOSITORY CONTENT READY FOR PUBLICATION
+PUBLIC REPOSITORY URL: PENDING
+IMMUTABLE TAG: v1.0.1 — TO BE CREATED AFTER PUBLICATION
+ARCHIVAL DOI: PENDING
+
+SOFTWARE CREATOR
+- Confirmed primary software creator: Pankaj Goyal
+- Affiliation: Department of Biotechnology, Central University of Rajasthan, India
+- Additional software creators/contributors: not finalized; may be added later only by explicit PI decision
+- Manuscript authorship remains independent
+
+SCIENTIFIC IDENTITY
+- Scientific model: HUNTER-v1.0
+- Model SHA-256: d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1
+- Ordered feature list SHA-256: 49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb
+- Feature engine SHA-256: 4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502
+- Scoring core SHA-256: 2e35433b3c3dd7478c3fe645d119956834a285fa2cfb8991890f10db5f6af21d
+- Wheel SHA-256: 2ea1daf94e40e87a857a6651192510f5fac3ef485f7ec358929cd1430f73f6f0
+- Input feature count: 42
+- Frozen threshold: 0.5428662440774465
+- Threshold operator: >=
+
+GOLDEN PARITY
+- H5: PASS, N=26, max abs delta = 1.1102230246251565e-16
+- HPS sample: PASS, N=21, max abs delta = 2.220446049250313e-16
+
+EXAMPLES
+- H5-I public 5+5 FASTA SHA-256: c0cae659dae39f97ae7df260c7ca1fd57fd7bb63f28d639da8ccf692710f0414
+- H5-I public example records: 10
+- Deterministic regression FASTA SHA-256: 710ba389adf99ad1d6c8dad7d6fb907e8838cbef93a26bd84ecd03d2e8722b21
+- Deterministic regression records: 10
+
+CITATION / METADATA
+- CITATION.cff YAML parse: PASS
+- CFF required fields: PASS
+- CFF version: 1.2.0
+- Software type: software
+- Package version: 1.0.1
+- License: BSD-3-Clause
+- CFF creators: 1
+- Primary software creator in CFF: Pankaj Goyal
+- cffconvert schema utility: not installed; YAML + required-field validation performed locally
+
+LIVE RESOURCE
+- https://hunter.goyal-lab.org/
+- v0.7.23 production scientific parity: PASS
+- synchronous production performance: PASS
+- normal-browser Chrome usability/privacy: PASS
+- normal-browser Edge usability/privacy: PASS
+- HUNTER Local Storage / Session Storage / service worker: none detected
+- observed HUNTER-domain cookie: Hostinger hcdn first-party HttpOnly session/security cookie
+
+REPOSITORY HYGIENE
+- Historical pre-certification reports/checksum manifests moved under provenance/historical_release_records/
+- Active repository root contains no stale software-creator-pending language
+- Authoritative root SHA256SUMS.txt generated and verified
+- Files covered by current checksum manifest: 99
+- No scientific source/model/wheel file changed during metadata finalization
+
+PUBLICATION LOCK
+- Locked manuscript/figure files: 77
+- Manuscript/figure files changed during repository finalization: NO
+- Main Figs. 1–6, Extended Data Figs. 1–2, Supplementary Figs. S1–S3 and Supplementary Table 14 remain protected
+
+NEXT ACTION
+Publish this exact verified repository candidate to the canonical public repository, then create and verify immutable tag v1.0.1 and archive that exact tag for DOI assignment.

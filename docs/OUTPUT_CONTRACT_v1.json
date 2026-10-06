@@ -1,0 +1,49 @@
+{
+  "software": "HUNTER v1.0",
+  "scientific_engine": "frozen; unchanged from parity-tested v1.0.0 core",
+  "threshold_internal": 0.5428662440774465,
+  "threshold_display": 0.542866244077,
+  "score_semantics": "classifier probability for the frozen development task; not mitochondrial-localization probability",
+  "threshold_call_values": [
+    "ABOVE_THRESHOLD",
+    "BELOW_THRESHOLD",
+    "NOT_SCORED"
+  ],
+  "required_score_fields": [
+    "Identifier",
+    "Sequence_Length",
+    "HUNTER_Version",
+    "HUNTER_Score",
+    "Frozen_Threshold",
+    "Threshold_Call",
+    "Distance_From_Threshold",
+    "Technical_Status",
+    "Applicability_Note",
+    "Interpretation",
+    "Error"
+  ],
+  "describe_extra_fields": [
+    "Model_Task",
+    "Model_Sequence_Representation",
+    "Architecture_Region_Claim",
+    "N30_NetChargeProxyPerRes",
+    "N30_AcidicFrac",
+    "N60_NetChargeProxyPerRes",
+    "N30_ArgFrac",
+    "Interpretation_Boundary"
+  ],
+  "forbidden_claims": [
+    "HUNTER score is mitochondrial-localization probability",
+    "above-threshold alone confirms mitochondrial localization/import",
+    "below-threshold excludes non-classical targeting",
+    "HUNTER v1 predicts a precise residue-level targeting interval"
+  ],
+  "separate_optional_tracks": [
+    "TargetP",
+    "MitoFates",
+    "TPpred3",
+    "DeepLoc",
+    "iMLP",
+    "PUPS"
+  ]
+}\n

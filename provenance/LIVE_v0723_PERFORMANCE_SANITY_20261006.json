@@ -1,0 +1,48 @@
+{
+  "pass": true,
+  "tested_at_utc": "2026-10-06T15:17:05.977Z",
+  "results": [
+    {
+      "mode": "score",
+      "n": 1,
+      "http": 200,
+      "rows": 1,
+      "seconds": 2.869920897,
+      "set_cookie": false
+    },
+    {
+      "mode": "score",
+      "n": 10,
+      "http": 200,
+      "rows": 10,
+      "seconds": 3.374805384,
+      "set_cookie": false
+    },
+    {
+      "mode": "score",
+      "n": 100,
+      "http": 200,
+      "rows": 100,
+      "seconds": 6.345242504,
+      "set_cookie": false
+    },
+    {
+      "mode": "score",
+      "n": 500,
+      "http": 200,
+      "rows": 500,
+      "seconds": 14.052830652,
+      "set_cookie": false
+    },
+    {
+      "mode": "describe",
+      "n": 10,
+      "http": 200,
+      "rows": 10,
+      "seconds": 3.532056777,
+      "tsv_bytes": 7429,
+      "tsv_lines": 11,
+      "set_cookie": false
+    }
+  ]
+}

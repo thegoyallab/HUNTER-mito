@@ -1,0 +1,32 @@
+{
+  "status": "PASS_SUBMISSION_DEPOSIT_v1.0.1",
+  "scientific_model": "HUNTER-v1.0",
+  "frozen_threshold": 0.5428662440774465,
+  "threshold_operator": ">=",
+  "authoritative_HPS03B": {
+    "artifact_identity_pass": true,
+    "H5_total_n": 26,
+    "threshold_integrity_pass": true
+  },
+  "package_core_tests": {
+    "H5_golden_vectors_n": 26,
+    "H5_max_abs_delta": 1.1102230246251565e-16,
+    "HPS_proteome_golden_vectors_n": 21,
+    "HPS_max_abs_delta": 2.220446049250313e-16,
+    "threshold_calls_exact": "PASS",
+    "invalid_input_tests": "PASS",
+    "installed_wheel_integrity_validation": "PASS"
+  },
+  "wheel": {
+    "name": "hunter_mito-1.0.1-py3-none-any.whl",
+    "sha256": "2ea1daf94e40e87a857a6651192510f5fac3ef485f7ec358929cd1430f73f6f0",
+    "bytes": 17804
+  },
+  "freeze_gate": {
+    "status": "PASS",
+    "checks": "38/38",
+    "path": "provenance/HUNTER_v1_FREEZE_DOSSIER_v0_7_23/verification_report.json"
+  },
+  "scientific_core_changed_during_reconciliation": false,
+  "release_boundary": "Scientific/software freeze PASS. Repository URL, archival DOI and final software-contributor metadata remain administrative release items."
+}

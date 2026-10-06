@@ -1,0 +1,28 @@
+{
+  "status": "PASS_RELEASE_CANDIDATE",
+  "authoritative_HPS03B": {
+    "artifact_identity_pass": true,
+    "Challenge14_n": 14,
+    "Challenge14_max_abs_delta": 0.0,
+    "H5_total_n": 26,
+    "H5_max_abs_delta": 5.551115123125783e-17,
+    "threshold_integrity_pass": true
+  },
+  "package_core_tests": {
+    "H5_golden_vectors_n": 26,
+    "H5_max_abs_delta": 1.1102230246251565e-16,
+    "HPS_proteome_golden_vectors_n": 21,
+    "HPS_max_abs_delta": 2.220446049250313e-16,
+    "invalid_input_tests": "PASS",
+    "clean_dependency_resolving_install": "PASS",
+    "installed_wheel_integrity_validation": "PASS",
+    "installed_wheel_smoke_scores": "PASS"
+  },
+  "wheel": {
+    "name": "hunter_mito-1.0.0-py3-none-any.whl",
+    "sha256": "d307874cc82fcfb622744b5681ebcb37369e0194b7b923502c961bf75299cb3e",
+    "bytes": 14849
+  },
+  "frozen_threshold": 0.5428662440774465,
+  "release_boundary": "Release candidate only. Public release still requires license selection, CITATION metadata, repository metadata, platform packaging and final documentation review."
+}

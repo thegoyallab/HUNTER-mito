@@ -1,0 +1,52 @@
+{
+  "pass": true,
+  "tested_at_utc": "2026-10-06T15:11:43.569Z",
+  "health": {
+    "status": 200,
+    "body": {
+      "status": "ready",
+      "scientific_model": "HUNTER-v1.0",
+      "binary_compatibility": "manylinux_2_28 / glibc >= 2.28; BLAS threads=1",
+      "threshold": 0.5428662440774465,
+      "integrity_pass": true,
+      "feature_count": 42,
+      "engine_error": "",
+      "hunter_tmpdir": "/home/u426485912/domains/hunter.goyal-lab.org/.hunter-pyinstaller-tmp",
+      "interpretation_data_status": "ready",
+      "hps_unique_sequences": 20410
+    },
+    "set_cookie": false,
+    "ms": 522
+  },
+  "public_H5I_5plus5": {
+    "pass": true,
+    "status": 200,
+    "rows": 10,
+    "max_abs_delta": 1.1102230246251565e-16,
+    "call_mismatch": 0,
+    "id_mismatch": 0,
+    "set_cookie": false,
+    "ms": 5848
+  },
+  "deterministic_regression_10": {
+    "pass": true,
+    "status": 200,
+    "rows": 10,
+    "max_abs_delta": 0,
+    "call_mismatch": 0,
+    "id_mismatch": 0,
+    "set_cookie": false,
+    "ms": 3145
+  },
+  "valid_single_http": 200,
+  "invalid_single_http": 422,
+  "mixed_batch": {
+    "http": 200,
+    "partial_success": true,
+    "scored": 1,
+    "not_scored": 1
+  },
+  "empty_payload_http": 400,
+  "persistence_html_route_http": 404,
+  "persistence_api_route_http": 404
+}

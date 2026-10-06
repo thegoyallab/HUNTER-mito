@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the HUNTER software and associated manuscript when using this resource."
+title: "HUNTER — Human mitochondrial targeting and N-terminome evidence resource"
+type: software
+version: "1.0.1"
+authors:
+  - family-names: "Goyal"
+    given-names: "Pankaj"
+    affiliation: "Department of Biotechnology, Central University of Rajasthan, India"
+license: "BSD-3-Clause"
+url: "https://hunter.goyal-lab.org/"
+abstract: "HUNTER v1 is an interpretable sequence-architecture framework for prioritizing proteins with features associated with non-classical mitochondrial targeting (ncMTS/ncMLS)."

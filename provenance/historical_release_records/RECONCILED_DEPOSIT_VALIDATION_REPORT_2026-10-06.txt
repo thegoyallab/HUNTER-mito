@@ -1,0 +1,27 @@
+HUNTER v1.0.1 reconciled submission/deposition validation report
+Date: 2026-10-06
+
+SCIENTIFIC FREEZE
+PASS — HUNTER-v1.0 model: d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1
+PASS — ordered 42-feature list: 49de523407d456ff1a4ca50d94f9221665decfb204bf99821fa3995d3b32eccb
+PASS — frozen feature engine: 4dffc54ce2317305139580859dc0b48e57bfedd70f5e723a84a4076ce19c2502
+PASS — public scoring core: 2e35433b3c3dd7478c3fe645d119956834a285fa2cfb8991890f10db5f6af21d
+PASS — threshold: 0.5428662440774465 with >= rule
+
+PACKAGE
+PASS — wheel: hunter_mito-1.0.1-py3-none-any.whl
+PASS — wheel SHA-256: 2ea1daf94e40e87a857a6651192510f5fac3ef485f7ec358929cd1430f73f6f0
+PASS — prior stale v1.0.0 package/parity manifests preserved as LEGACY files
+PASS — PACKAGE_MANIFEST.json regenerated from actual v1.0.1 bytes
+
+PARITY
+PASS — freeze gate 38/38
+PASS — H5 26/26; max absolute delta 1.1102230246251565e-16
+PASS — HPS golden sample 21/21; max absolute delta 2.220446049250313e-16
+
+SCIENTIFIC CORE CHANGED DURING RECONCILIATION: NO
+
+ADMINISTRATIVE ITEMS STILL OPEN
+- canonical public repository URL
+- archival DOI
+- final software creator/contributor metadata review

@@ -1,0 +1,20 @@
+{
+  "model_sha256": "d916f1ad19aa830323373f4134ed3780dda2a065292f6c592cf764f4242c63d1",
+  "model_type": "<class 'sklearn.pipeline.Pipeline'>",
+  "pipeline_steps": [
+    "var",
+    "scale",
+    "clf"
+  ],
+  "estimator_type": "<class 'sklearn.linear_model._logistic.LogisticRegression'>",
+  "n_features_in": 42,
+  "C": 0.01,
+  "l1_ratio": 0.5,
+  "penalty": "elasticnet",
+  "solver": "saga",
+  "classes": [
+    0,
+    1
+  ],
+  "frozen_threshold": 0.5428662440774465
+}

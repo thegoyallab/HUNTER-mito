@@ -1,0 +1,1 @@
+PARITY PASS {'H5_n': 26, 'H5_max_abs_delta': 1.1102230246251565e-16, 'HPS_n': 21, 'HPS_max_abs_delta': 2.220446049250313e-16}

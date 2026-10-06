@@ -1,0 +1,3 @@
+# Preserve release-candidate bytes exactly in Git.
+# Scientific/reproducibility files must not be modified by platform EOL conversion.
+* -text

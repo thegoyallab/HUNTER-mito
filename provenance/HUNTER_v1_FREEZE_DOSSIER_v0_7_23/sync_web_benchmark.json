@@ -1,0 +1,79 @@
+{
+  "endpoint": "http://127.0.0.1:3107/api/score",
+  "web_package": "HUNTER_v1_Web_Interface_v0_7_23_NARREADY",
+  "results": [
+    {
+      "mode": "score",
+      "records_requested": 1,
+      "http_status": 200,
+      "elapsed_seconds": 3.7902505559977726,
+      "records_per_second": 0.2638348006881969,
+      "result_url_present": true,
+      "n": 1
+    },
+    {
+      "mode": "score",
+      "records_requested": 10,
+      "http_status": 200,
+      "elapsed_seconds": 3.7713748429996485,
+      "records_per_second": 2.6515529260003956,
+      "result_url_present": true,
+      "n": 10
+    },
+    {
+      "mode": "score",
+      "records_requested": 100,
+      "http_status": 200,
+      "elapsed_seconds": 3.764912420996552,
+      "records_per_second": 26.561042812658716,
+      "result_url_present": true,
+      "n": 100
+    },
+    {
+      "mode": "score",
+      "records_requested": 500,
+      "http_status": 200,
+      "elapsed_seconds": 6.260373745000834,
+      "records_per_second": 79.86743609345538,
+      "result_url_present": true,
+      "n": 500
+    },
+    {
+      "mode": "describe",
+      "records_requested": 1,
+      "http_status": 200,
+      "elapsed_seconds": 3.1175947609990544,
+      "records_per_second": 0.3207600976592427,
+      "result_url_present": true,
+      "n": 1
+    },
+    {
+      "mode": "describe",
+      "records_requested": 10,
+      "http_status": 200,
+      "elapsed_seconds": 3.058911619002174,
+      "records_per_second": 3.269136622934542,
+      "result_url_present": true,
+      "n": 10
+    },
+    {
+      "mode": "describe",
+      "records_requested": 100,
+      "http_status": 200,
+      "elapsed_seconds": 3.973554577998584,
+      "records_per_second": 25.166383910691973,
+      "result_url_present": true,
+      "n": 100
+    },
+    {
+      "mode": "describe",
+      "records_requested": 500,
+      "http_status": 200,
+      "elapsed_seconds": 5.928584083001624,
+      "records_per_second": 84.33716938140338,
+      "result_url_present": true,
+      "n": 500
+    }
+  ],
+  "interpretation": "Synchronous request wall-clock time on Kairav localhost; includes current result-persistence overhead."
+}
